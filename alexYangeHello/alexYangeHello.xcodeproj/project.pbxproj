@@ -13,8 +13,6 @@
 		752B912A1CC62A0F00003E13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 752B91281CC62A0F00003E13 /* Main.storyboard */; };
 		752B912C1CC62A0F00003E13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 752B912B1CC62A0F00003E13 /* Assets.xcassets */; };
 		752B912F1CC62A0F00003E13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 752B912D1CC62A0F00003E13 /* LaunchScreen.storyboard */; };
-		752B913A1CC62A0F00003E13 /* alexYangeHelloTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 752B91391CC62A0F00003E13 /* alexYangeHelloTests.m */; };
-		752B91451CC62A0F00003E13 /* alexYangeHelloUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 752B91441CC62A0F00003E13 /* alexYangeHelloUITests.m */; };
 		752B91701CC62A5200003E13 /* CLIColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 752B91561CC62A5200003E13 /* CLIColor.m */; };
 		752B91721CC62A5200003E13 /* DDAbstractDatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 752B915A1CC62A5200003E13 /* DDAbstractDatabaseLogger.m */; };
 		752B91731CC62A5200003E13 /* DDASLLogCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = 752B915C1CC62A5200003E13 /* DDASLLogCapture.m */; };
@@ -56,11 +54,7 @@
 		752B912E1CC62A0F00003E13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		752B91301CC62A0F00003E13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		752B91351CC62A0F00003E13 /* alexYangeHelloTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = alexYangeHelloTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		752B91391CC62A0F00003E13 /* alexYangeHelloTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = alexYangeHelloTests.m; sourceTree = "<group>"; };
-		752B913B1CC62A0F00003E13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		752B91401CC62A0F00003E13 /* alexYangeHelloUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = alexYangeHelloUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		752B91441CC62A0F00003E13 /* alexYangeHelloUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = alexYangeHelloUITests.m; sourceTree = "<group>"; };
-		752B91461CC62A0F00003E13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		752B91551CC62A5200003E13 /* CLIColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLIColor.h; sourceTree = "<group>"; };
 		752B91561CC62A5200003E13 /* CLIColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLIColor.m; sourceTree = "<group>"; };
 		752B91571CC62A5200003E13 /* CocoaLumberjack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CocoaLumberjack.h; sourceTree = "<group>"; };
@@ -118,8 +112,6 @@
 			children = (
 				752B91531CC62A5200003E13 /* Classes */,
 				752B911E1CC62A0F00003E13 /* alexYangeHello */,
-				752B91381CC62A0F00003E13 /* alexYangeHelloTests */,
-				752B91431CC62A0F00003E13 /* alexYangeHelloUITests */,
 				752B911D1CC62A0F00003E13 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -156,24 +148,6 @@
 				752B91201CC62A0F00003E13 /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		752B91381CC62A0F00003E13 /* alexYangeHelloTests */ = {
-			isa = PBXGroup;
-			children = (
-				752B91391CC62A0F00003E13 /* alexYangeHelloTests.m */,
-				752B913B1CC62A0F00003E13 /* Info.plist */,
-			);
-			path = alexYangeHelloTests;
-			sourceTree = "<group>";
-		};
-		752B91431CC62A0F00003E13 /* alexYangeHelloUITests */ = {
-			isa = PBXGroup;
-			children = (
-				752B91441CC62A0F00003E13 /* alexYangeHelloUITests.m */,
-				752B91461CC62A0F00003E13 /* Info.plist */,
-			);
-			path = alexYangeHelloUITests;
 			sourceTree = "<group>";
 		};
 		752B91531CC62A5200003E13 /* Classes */ = {
@@ -377,7 +351,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				752B913A1CC62A0F00003E13 /* alexYangeHelloTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,7 +358,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				752B91451CC62A0F00003E13 /* alexYangeHelloUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
